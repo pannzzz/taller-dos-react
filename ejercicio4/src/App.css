@@ -1,0 +1,43 @@
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #4a4a4a;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #333;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.card-text {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.d-flex {
+  justify-content: space-between;
+}
